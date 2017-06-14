@@ -17,8 +17,8 @@ contract Payout {
 
      function Dividend() {
        uint bal= this.balance;
-       Victor.send(bal * ownershipDistribution[Victor] / 100); 
-       Jim.send(bal * ownershipDistribution[Jim] / 100);
-       Kieren.send(bal * ownershipDistribution[Kieren] / 100);
+       Victor.transfer(bal * ownershipDistribution[Victor] / 100); 
+       Jim.transfer(bal * ownershipDistribution[Jim] / 100);
+       Kieren.transfer(bal * ownershipDistribution[Kieren] / 100);
      }
 }

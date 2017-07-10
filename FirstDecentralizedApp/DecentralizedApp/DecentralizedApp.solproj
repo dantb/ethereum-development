@@ -27,6 +27,9 @@
     <Content Include="samples\SimpleDataFeed.sol" />
     <Content Include="samples\SimpleStorage.sol" />
     <Content Include="README.html" />
+    <Content Include="src\Ballot.sol">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="src\Coin.sol">
       <SubType>Content</SubType>
     </Content>
